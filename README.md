@@ -3,4 +3,8 @@
 - Nombre: Johan Manuel Villegas Anaya
 - Correo: 35164015@uaz.edu.mx
 
-# Repositorio
+## Actividad 1
+
+- p01-hola-mundo
+- p02-paga-trabajador
+- p03-venta-pizzas
