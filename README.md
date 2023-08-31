@@ -14,3 +14,7 @@
 - p04-procesa-calificaciones
 - p05-paga-trabajo
 - p06-factorial-numeros
+
+## Actividad 3
+
+- p07-estadisticas
