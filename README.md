@@ -18,3 +18,11 @@
 ## Actividad 3
 
 - p07-estadisticas
+
+## Tarea 01
+
+- p08-distancia-puntos
+- p09-volumen-esfera
+- p10-calificaciones
+- p11-venta-articulos
+- p12-numeros-arreglo
