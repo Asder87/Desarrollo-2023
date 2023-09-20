@@ -35,3 +35,7 @@
 ## Actividad 5
 
 - p15-control-bancario-v2
+
+## Tarea 02
+
+- p16-control-ventas-v1
