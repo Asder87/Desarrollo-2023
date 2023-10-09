@@ -12,7 +12,6 @@ Console.WriteLine("\nTodos los estudiantes en el Grupo:");
 estudiantes.ForEach(e=>Console.WriteLine(e));
 
 string mun = "Fresnillo";
-//var estmun =(from e in estudiantes where e.Municipio==mun select e).ToList();
 var estmun = estudiantes.Where(e=>e.Municipio==mun).ToList();
 Console.WriteLine($"\nEstudiantes que son de {mun} - {estmun.Count()}");
 estmun.ForEach(e=>Console.WriteLine(e));
