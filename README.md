@@ -54,3 +54,8 @@
 
 - p21-linq4
 - p22-linq5
+
+## Actividad 08
+
+- p23-Blazor-Server
+- p24-TodoList
