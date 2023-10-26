@@ -59,3 +59,7 @@
 
 - p23-Blazor-Server
 - p24-TodoList
+
+## Actividad 09
+
+- p25-simple-crud
