@@ -71,3 +71,7 @@
 ## Examen Parcial 2
 
 - p27-segundo-examen-parcial
+
+## Actividad 10
+
+- p28-crud-universidad-p1
