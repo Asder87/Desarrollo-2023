@@ -75,3 +75,11 @@
 ## Actividad 10
 
 - p28-crud-universidad-p1
+
+## Actividad 11
+
+- p29-crud-universidad-p2
+
+## Examen Parcial 3
+
+- p30-Tercer-Examen-Parcial

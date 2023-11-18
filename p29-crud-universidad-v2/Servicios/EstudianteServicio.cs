@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 public class EstudianteServicio {
 private readonly ContextoDatos ctx;
 public EstudianteServicio(ContextoDatos contexto) => ctx = contexto;
+
 public List<Estudiante> ObtenerTodo(string cadenabuscar) {
 var _estudiantes = ctx.Estudiantes
 .Include(i=>i.Inscripciones)
@@ -12,7 +13,7 @@ estudiantes = estudiantes.Where(e=>e.Apeido.Contains(cadenabuscar) || e.Nombre.C
 }
 return estudiantes.ToList();
 }
-}
+
 public bool AgregarActualizar(Estudiante estudiante) {
 try {
 if (estudiante.Id == 0) ctx.Estudiantes.Add(estudiante);

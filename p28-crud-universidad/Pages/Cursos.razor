@@ -26,10 +26,17 @@
 <td>@curso.CursoId</td>
 <td>@curso.Titulo</td>
 <td>@curso.Creditos</td>
+@if(curso.Inscripciones.Count==0) {
+<td>-sin inscripciones-</td>
+} else {
 <td>
-
+@foreach(var est in curso.Inscripciones) {
+@String.Format($"{@est.Estudiante.NombreCompleto} - {@est.Estudiante.FechaInscripcion.ToString("yyy-MM-dd")}") <br />
+}
+</td>
+}
+<td>
 <a href="curso/editar/@curso.CursoId" class="btn btn-success">Editar</a>
-
 <a class="btn btn-danger" @onclick="async ()=> await Borrar(curso)">Borrar</a>
 </td>
 </tr>
